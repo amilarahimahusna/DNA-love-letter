@@ -1,6 +1,3 @@
-# go inside the folder called love
-cd love 
-
 # open notepad
 notepad love.py
 
@@ -42,6 +39,9 @@ print("Partner:   ", complement(dna))
 print("Decoded:   ", decode(dna))
 
 #save the file 
+
+# go inside the folder called love
+cd love
 #run the code 
 python love.py
 
