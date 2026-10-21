@@ -12,7 +12,7 @@ def encode(message):
     dna = ''
     for letter in message:
         number = ALPHABET.index(letter)      # position in our list
-        bits = format(number, '06b')         # 6 digits, not 8
+        bits = format(number, '06b')         # 6 digits
         for i in range(0, 6, 2):             # 0, 2, 4
             dna += CODE[bits[i:i+2]]
     return 'ATG' + dna + 'TAA'
